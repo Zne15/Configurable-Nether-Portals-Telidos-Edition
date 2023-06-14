@@ -14,7 +14,7 @@
 	},
 	"license": "MIT",
 	"icon": "assets/confnportal/icon.png",
-	"environment": "*",
+	"environment": "server",
 	"entrypoints": {
 		"main": [
 			"net.totobirdcreations.confnportal.Mod"
