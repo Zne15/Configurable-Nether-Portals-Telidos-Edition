@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "confnportal",
+	"version": "${version}",
+	"name": "Configurable Nether Portals",
+	"description": "Nether portals are more customisable.",
+	"authors": [
+		"Totobird Creations"
+	],
+	"contact": {
+		"homepage": "https://github.com/Totobird-Creations/Configurable-Nether-Portals-Mod",
+		"sources": "https://github.com/Totobird-Creations/Configurable-Nether-Portals-Mod",
+		"issues": "https://github.com/Totobird-Creations/Configurable-Nether-Portals-Mod/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/confnportal/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.totobirdcreations.confnportal.Mod"
+		]
+	},
+	"mixins": [
+		"confnportal.mixins.json"
+	],
+	"accessWidener": "confnportal.accesswidener",
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.19.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+	}
+}
