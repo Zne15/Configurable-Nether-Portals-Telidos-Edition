@@ -107,8 +107,8 @@ public class NetherPortalMixin {
 
 	private static boolean isValidFrameBlock(BlockState state, BlockView view, BlockPos ignored) {
 		return view instanceof World world && (
-				(world.getGameRules().getBoolean(Mod.PORTALS_ALLOW_CRYING_OBSIDIAN) && state.isOf(Blocks.CRYING_OBSIDIAN))
-						|| (state.isOf(Blocks.OBSIDIAN))
+				(world.getGameRules().getBoolean(Mod.PORTALS_ALLOW_CRYING_OBSIDIAN) && state.isOf(Blocks.OBSIDIAN))
+						|| (state.isOf(Blocks.CRYING_OBSIDIAN))
 		);
 	}
 
